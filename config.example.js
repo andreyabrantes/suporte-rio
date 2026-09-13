@@ -11,7 +11,7 @@
    A chave do Web3Forms é uma access key pública (enviada pelo
    navegador do visitante). Para proteção real, ative a
    "Domain Restriction" no painel do Web3Forms, limitando a
-   chave ao seu domínio (ex.: suporterio.com.br).
+   chave ao seu domínio (ex.: seudominio.com.br).
    ========================================================= */
 window.APP_CONFIG = {
   // Substitua pela sua chave real do Web3Forms
