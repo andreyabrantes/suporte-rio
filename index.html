@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Suporte Informática — Suporte de TI para sua empresa. Manutenção de computadores, Macs, redes, monitores e impressoras. Atendimento técnico em até 24h no Rio de Janeiro." />
+  <meta name="theme-color" content="#0B132B" />
+  <title>Suporte Informática | Suporte de TI para sua Empresa</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Caveat:wght@600;700&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css?v=2" />
+</head>
+<body>
+  <!-- ===================== HEADER ===================== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo" aria-label="Suporte Informática - Página inicial">
+        <img src="logo.jpg?v=2" alt="Suporte Informática" class="logo__img" />
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navegação principal">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#inicio">Início</a></li>
+          <li><a class="nav__link" href="#servicos">Serviços</a></li>
+          <li><a class="nav__link" href="#sobre">Sobre</a></li>
+          <li><a class="nav__link" href="#clientes">Clientes</a></li>
+          <li><a class="nav__link" href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <a href="https://wa.me/5521977377664" target="_blank" rel="noopener" class="header__cta">
+        <span class="header__cta-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2Z" fill="currentColor"/><path d="M8.6 8.4c.2-.5.4-.5.6-.5h.5c.2 0 .4 0 .6.5l.7 1.7c.1.2 0 .4-.1.5l-.5.6c-.1.2-.2.3 0 .6.5.9 1.3 1.7 2.2 2.2.3.2.4.1.6 0l.6-.6c.2-.1.3-.2.5-.1l1.7.8c.4.2.5.3.5.5v.5c0 .2 0 .4-.5.6-.5.2-1.2.4-2.1.1-1.6-.5-3.2-1.7-4.3-3.3-.7-1-1.1-2-1.2-2.6-.1-.9.1-1.6.3-2Z" fill="#fff"/></svg>
+        </span>
+        <span class="header__cta-text">
+          <strong>21 97737-7664</strong>
+          <small>Atendimento técnico em até 24h</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="inicio">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+
+      <div class="container hero__inner">
+        <!-- Linha de batimento cardíaco (ECG) atravessando toda a largura -->
+        <div class="ecg" aria-hidden="true">
+          <svg class="ecg__svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path class="ecg__path" d="M0 60 H180 l14 -34 l16 68 l14 -34 H420 l14 -34 l16 68 l14 -34 H660 l14 -34 l16 68 l14 -34 H900 l14 -34 l16 68 l14 -34 H1200" />
+          </svg>
+          <span class="ecg__dot"></span>
+        </div>
+
+        <div class="hero__content reveal">
+          <span class="hero__eyebrow">Suporte de TI para sua empresa</span>
+
+          <h1 class="hero__title">Sua empresa sempre online e funcionando.</h1>
+
+          <p class="hero__subtitle">
+            Manutenção, configuração e suporte técnico de computadores, redes, servidores e
+            impressoras. Atendimento rápido, seguro e sem complicação.
+          </p>
+
+          <ul class="hero__topics">
+            <li>
+              <span class="hero__topic-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v5l3.5 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+              Atendimento em até 24h
+            </li>
+            <li>
+              <span class="hero__topic-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M17 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9.5" cy="7" r="4" stroke="currentColor" stroke-width="1.8"/><path d="M22 21v-2a4 4 0 0 0-3-3.87" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              </span>
+              Equipe técnica especializada
+            </li>
+            <li>
+              <span class="hero__topic-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M12 2 4 5v6c0 4.4 3.4 8.3 8 9 4.6-.7 8-4.6 8-9V5l-8-3Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="m9 12 2 2 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+              Mais segurança e produtividade
+            </li>
+          </ul>
+
+          <a href="#contato" class="btn btn--primary btn--lg">
+            Solicite uma visita técnica
+            <svg class="btn__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+
+        <div class="hero__visual reveal">
+          <div class="hero__photo">
+            <img
+              src="fto.jpg?v=2"
+              alt="Profissional de TI sorrindo segurando um notebook" loading="eager" />
+          </div>
+
+          <div class="hero__seal">
+            <span class="hero__seal-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+            </span>
+            <span>Soluções de TI que impulsionam o seu negócio</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="hero__strip reveal">
+          <div class="hero__strip-item">
+            <span class="hero__strip-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            Empresas de todos os portes
+          </div>
+          <div class="hero__strip-item">
+            <span class="hero__strip-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 21s7-5.5 7-11a7 7 0 1 0-14 0c0 5.5 7 11 7 11Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.5" stroke="currentColor" stroke-width="1.7"/></svg>
+            </span>
+            Atendimento em toda a região do RJ
+          </div>
+          <div class="hero__strip-item">
+            <span class="hero__strip-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 3 3 8l9 5 9-5-9-5Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="m3 13 9 5 9-5" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+            </span>
+            Soluções sob medida para o seu ambiente de TI
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SERVIÇOS ===================== -->
+    <section class="section" id="servicos">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="eyebrow">Nossos serviços</span>
+          <h2 class="section__title">Soluções completas em TI para sua empresa</h2>
+        </header>
+
+        <div class="services">
+          <article class="service reveal">
+            <div class="service__media">
+              <img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=700&q=80" alt="Computador desktop de trabalho" loading="lazy" />
+            </div>
+            <div class="service__body">
+              <span class="service__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="12" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              </span>
+              <h3 class="service__title">Manutenção de PCs</h3>
+              <p class="service__text">Diagnóstico e reparo de hardware e software.</p>
+            </div>
+          </article>
+
+          <article class="service reveal">
+            <div class="service__media">
+              <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=700&q=80" alt="Computador Apple iMac e MacBook" loading="lazy" />
+            </div>
+            <div class="service__body">
+              <span class="service__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M16.5 3.5c.9-1.1 1.5-2.5 1.3-3.5-1.2.1-2.6.8-3.4 1.8-.8.9-1.5 2.3-1.3 3.4 1.3.1 2.6-.6 3.4-1.7Z" fill="currentColor"/><path d="M18.6 12.6c0-2.1 1.7-3.1 1.8-3.2-1-1.4-2.5-1.6-3-1.6-1.3-.1-2.5.7-3.1.7-.6 0-1.6-.7-2.7-.7-1.4 0-2.7.8-3.4 2.1-1.5 2.5-.4 6.3 1 8.3.7 1 1.5 2.1 2.6 2.1 1 0 1.4-.7 2.7-.7 1.2 0 1.6.7 2.7.7 1.1 0 1.8-1 2.5-2 .8-1.1 1.1-2.2 1.1-2.3-.1 0-2.2-.9-2.2-3.4Z" fill="currentColor"/></svg>
+              </span>
+              <h3 class="service__title">Manutenção de Macs</h3>
+              <p class="service__text">Suporte especializado para computadores Apple.</p>
+            </div>
+          </article>
+
+          <article class="service reveal">
+            <div class="service__media">
+              <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=700&q=80" alt="Cabos de rede organizados em rack" loading="lazy" />
+            </div>
+            <div class="service__body">
+              <span class="service__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M12 3v4M12 17v4M3 12h4M17 12h4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/><path d="M6 6l2 2M18 6l-2 2M6 18l2-2M18 18l-2-2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              </span>
+              <h3 class="service__title">Configuração de Redes</h3>
+              <p class="service__text">Rede cabeada e Wi-Fi segura e estável.</p>
+            </div>
+          </article>
+
+          <article class="service reveal">
+            <div class="service__media">
+              <img src="https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&w=700&q=80" alt="Dois monitores em estação de trabalho" loading="lazy" />
+            </div>
+            <div class="service__body">
+              <span class="service__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><rect x="2" y="4" width="20" height="12" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              </span>
+              <h3 class="service__title">Manutenção de Monitores</h3>
+              <p class="service__text">Configuração e reparo de monitores e displays.</p>
+            </div>
+          </article>
+
+          <article class="service reveal">
+            <div class="service__media">
+              <img src="https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?auto=format&fit=crop&w=700&q=80" alt="Impressora de escritório" loading="lazy" />
+            </div>
+            <div class="service__body">
+              <span class="service__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M6 9V3h12v6" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><rect x="3" y="9" width="18" height="8" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M6 17h12v4H6z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M17.5 12.5h.01" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+              </span>
+              <h3 class="service__title">Configuração de Impressoras</h3>
+              <p class="service__text">Instalação e suporte multimarca.</p>
+            </div>
+          </article>
+
+          <article class="service reveal">
+            <div class="service__media">
+              <img src="https://images.unsplash.com/photo-1531492746076-161ca9bcad58?auto=format&fit=crop&w=700&q=80" alt="Disco rígido (HDD) aberto em bancada de recuperação de dados" loading="lazy" />
+            </div>
+            <div class="service__body">
+              <span class="service__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="7" rx="2" stroke="currentColor" stroke-width="1.8"/><rect x="3" y="13" width="18" height="7" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M7 7.5h.01M7 16.5h.01" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M12 11v2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              </span>
+              <h3 class="service__title">Recuperação de Dados</h3>
+              <p class="service__text">Especialistas em recuperação de dados de discos rígidos, pendrives, SD e Micro, SSD, RAID, NAS e Servidores.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SOBRE ===================== -->
+    <section class="section section--about" id="sobre">
+      <div class="about__bg" aria-hidden="true"></div>
+      <div class="container about">
+        <div class="about__content reveal">
+          <span class="eyebrow eyebrow--light">Sobre nós</span>
+          <h2 class="section__title section__title--light">Tecnologia a favor do seu negócio</h2>
+          <p class="about__text">
+            Com anos de experiência, a Suporte Informática oferece soluções de TI completas e
+            personalizadas para empresas de todos os portes. Nosso compromisso é garantir que sua
+            operação nunca pare, com atendimento ágil, técnico e de confiança.
+          </p>
+          <a href="#contato" class="btn btn--primary">
+            Conheça nossa empresa
+            <svg class="btn__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+
+        <div class="about__media reveal">
+          <div class="about__photo">
+            <img src="suporteinformatica.jpg?v=2" alt="Suporte Informática — soluções de TI para sua empresa" loading="lazy" />
+          </div>
+          <span class="about__handwritten">Mais que suporte, uma parceria para o seu crescimento</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CLIENTES ===================== -->
+    <section class="section" id="clientes">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="eyebrow">Nossos clientes</span>
+          <h2 class="section__title">Empresas que confiam no nosso trabalho</h2>
+        </header>
+
+        <div class="clients">
+          <div class="clients__carousel reveal" aria-label="Logos de clientes">
+            <div class="marquee">
+              <div class="marquee__track">
+                <span class="client-logo"><img src="https://placehold.co/220x90/ffffff/9aa3b2?text=ODEA&font=montserrat" alt="ODEA" loading="lazy" /></span>
+                <span class="client-logo"><img src="https://placehold.co/220x90/ffffff/9aa3b2?text=HERA&font=montserrat" alt="HERA" loading="lazy" /></span>
+                <span class="client-logo"><img src="https://placehold.co/220x90/ffffff/9aa3b2?text=PEREO&font=montserrat" alt="PEREO" loading="lazy" /></span>
+                <span class="client-logo"><img src="https://placehold.co/220x90/ffffff/9aa3b2?text=NEXUM&font=montserrat" alt="NEXUM" loading="lazy" /></span>
+                <span class="client-logo"><img src="https://placehold.co/220x90/ffffff/9aa3b2?text=VANTIS&font=montserrat" alt="VANTIS" loading="lazy" /></span>
+                <span class="client-logo"><img src="https://placehold.co/220x90/ffffff/9aa3b2?text=ORION&font=montserrat" alt="ORION" loading="lazy" /></span>
+                <span class="client-logo" aria-hidden="true"><img src="https://placehold.co/220x90/ffffff/9aa3b2?text=ODEA&font=montserrat" alt="" loading="lazy" /></span>
+                <span class="client-logo" aria-hidden="true"><img src="https://placehold.co/220x90/ffffff/9aa3b2?text=HERA&font=montserrat" alt="" loading="lazy" /></span>
+                <span class="client-logo" aria-hidden="true"><img src="https://placehold.co/220x90/ffffff/9aa3b2?text=PEREO&font=montserrat" alt="" loading="lazy" /></span>
+                <span class="client-logo" aria-hidden="true"><img src="https://placehold.co/220x90/ffffff/9aa3b2?text=NEXUM&font=montserrat" alt="" loading="lazy" /></span>
+                <span class="client-logo" aria-hidden="true"><img src="https://placehold.co/220x90/ffffff/9aa3b2?text=VANTIS&font=montserrat" alt="" loading="lazy" /></span>
+                <span class="client-logo" aria-hidden="true"><img src="https://placehold.co/220x90/ffffff/9aa3b2?text=ORION&font=montserrat" alt="" loading="lazy" /></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== BENEFÍCIOS ===================== -->
+    <section class="section section--benefits" id="beneficios">
+      <div class="container">
+        <div class="benefits">
+          <article class="benefit reveal">
+            <span class="benefit__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 2 4 5v6c0 4.4 3.4 8.3 8 9 4.6-.7 8-4.6 8-9V5l-8-3Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="m9 12 2 2 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <h3 class="benefit__title">Segurança</h3>
+            <p class="benefit__text">Seus dados e equipamentos mais protegidos.</p>
+          </article>
+
+          <article class="benefit reveal">
+            <span class="benefit__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M3 17l5-5 4 4 8-8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 8h5v5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <h3 class="benefit__title">Produtividade</h3>
+            <p class="benefit__text">Menos tempo parado, mais resultados.</p>
+          </article>
+
+          <article class="benefit reveal">
+            <span class="benefit__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v5l3.5 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <h3 class="benefit__title">Atendimento rápido</h3>
+            <p class="benefit__text">Suporte técnico em até 24 horas.</p>
+          </article>
+
+          <article class="benefit reveal">
+            <span class="benefit__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M17 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9.5" cy="7" r="4" stroke="currentColor" stroke-width="1.8"/><path d="M22 21v-2a4 4 0 0 0-3-3.87" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </span>
+            <h3 class="benefit__title">Equipe especializada</h3>
+            <p class="benefit__text">Profissionais certificados e experientes.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTATO ===================== -->
+    <section class="contact" id="contato">
+      <div class="contact__grid">
+        <!-- Lado esquerdo -->
+        <div class="contact__form-side">
+          <div class="contact__form-inner reveal">
+            <span class="eyebrow eyebrow--light">Solicite um orçamento</span>
+            <h2 class="contact__title">Chamado urgente?</h2>
+
+            <form class="form" id="contactForm" novalidate>
+              <div class="field">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" placeholder="Seu nome completo" required />
+                <span class="field__error" data-error-for="name"></span>
+              </div>
+
+              <div class="field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="voce@empresa.com.br" required />
+                <span class="field__error" data-error-for="email"></span>
+              </div>
+
+              <div class="field">
+                <label for="phone">Telefone / WhatsApp</label>
+                <input type="tel" id="phone" name="phone" placeholder="(21) 97737-7664" inputmode="numeric" maxlength="15" autocomplete="tel" required />
+                <span class="field__error" data-error-for="phone"></span>
+              </div>
+
+              <div class="field">
+                <label for="subject">Assunto</label>
+                <input type="text" id="subject" name="subject" placeholder="Como podemos ajudar?" required />
+                <span class="field__error" data-error-for="subject"></span>
+              </div>
+
+              <div class="field">
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" rows="4" placeholder="Descreva o seu problema ou necessidade..." required></textarea>
+                <span class="field__error" data-error-for="message"></span>
+              </div>
+
+              <!-- Honeypot anti-spam (Web3Forms) -->
+              <input type="checkbox" name="botcheck" class="hidden-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+              <button type="submit" class="btn btn--white btn--lg btn--block">Enviar solicitação</button>
+
+              <p class="form__success" id="formSuccess" role="status" hidden>
+                ✓ Solicitação enviada com sucesso! Entraremos em contato em breve.
+              </p>
+
+              <p class="form__error" id="formError" role="alert" hidden>
+                ✕ Não foi possível enviar a sua solicitação. Tente novamente ou fale conosco pelo WhatsApp.
+              </p>
+            </form>
+          </div>
+        </div>
+
+        <!-- Lado direito -->
+        <div class="contact__info-side">
+          <div class="contact__info-overlay" aria-hidden="true"></div>
+          <div class="contact__info-inner reveal">
+            <ul class="contact__list">
+              <li>
+                <span class="contact__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M8.6 8.4c.2-.5.4-.5.6-.5h.5c.2 0 .4 0 .6.5l.7 1.7c.1.2 0 .4-.1.5l-.5.6c-.1.2-.2.3 0 .6.5.9 1.3 1.7 2.2 2.2.3.2.4.1.6 0l.6-.6c.2-.1.3-.2.5-.1l1.7.8c.4.2.5.3.5.5v.5c0 .2 0 .4-.5.6-.5.2-1.2.4-2.1.1-1.6-.5-3.2-1.7-4.3-3.3-.7-1-1.1-2-1.2-2.6-.1-.9.1-1.6.3-2Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+                </span>
+                <div>
+                  <strong>WhatsApp</strong>
+                  <a href="https://wa.me/5521977377664" target="_blank" rel="noopener">21 97737-7664</a>
+                </div>
+              </li>
+              <li>
+                <span class="contact__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none"><rect x="2" y="4" width="20" height="16" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="m2 7 10 6 10-6" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+                </span>
+                <div>
+                  <strong>Email</strong>
+                  <a href="mailto:contato@suporterio.com.br">contato@suporterio.com.br</a>
+                </div>
+              </li>
+              <li>
+                <span class="contact__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none"><path d="M12 21s7-5.5 7-11a7 7 0 1 0-14 0c0 5.5 7 11 7 11Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.5" stroke="currentColor" stroke-width="1.7"/></svg>
+                </span>
+                <div>
+                  <strong>Localização</strong>
+                  <span>Rio de Janeiro - RJ</span>
+                </div>
+              </li>
+            </ul>
+
+            <span class="contact__handwritten">Estamos prontos para te atender!</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#inicio" class="logo logo--light" aria-label="Suporte Informática - Página inicial">
+        <img src="logo.jpg?v=2" alt="Suporte Informática" class="logo__img logo__img--sm" />
+      </a>
+
+      <nav class="footer__nav" aria-label="Navegação do rodapé">
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#clientes">Clientes</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <p class="footer__copy">© 2026 Suporte Informática. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp flutuante -->
+  <a href="https://wa.me/5521977377664?text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20o%20suporte%20t%C3%A9cnico."
+     class="wa-float"
+     target="_blank"
+     rel="noopener"
+     aria-label="Falar no WhatsApp">
+    <span class="wa-float__pulse" aria-hidden="true"></span>
+    <span class="wa-float__icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2Z" fill="currentColor"/><path d="M8.6 8.4c.2-.5.4-.5.6-.5h.5c.2 0 .4 0 .6.5l.7 1.7c.1.2 0 .4-.1.5l-.5.6c-.1.2-.2.3 0 .6.5.9 1.3 1.7 2.2 2.2.3.2.4.1.6 0l.6-.6c.2-.1.3-.2.5-.1l1.7.8c.4.2.5.3.5.5v.5c0 .2 0 .4-.5.6-.5.2-1.2.4-2.1.1-1.6-.5-3.2-1.7-4.3-3.3-.7-1-1.1-2-1.2-2.6-.1-.9.1-1.6.3-2Z" fill="#fff"/></svg>
+    </span>
+    <span class="wa-float__label">Fale conosco</span>
+  </a>
+
+  <!-- Back to top -->
+  <button class="to-top" id="toTop" aria-label="Voltar ao topo">
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 19V5m-6 6 6-6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <!-- Scripts -->
+  <!-- config.js contém a chave do Web3Forms e NÃO é versionado no Git -->
+  <script src="config.js?v=2"></script>
+  <script src="main.js?v=2"></script>
+</body>
+</html>
